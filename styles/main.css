@@ -1,0 +1,45 @@
+
+.fishList{ /* Flex parent element */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+    
+}
+
+.fishCard{ 
+    background-color: aqua;
+    border: 2px dotted red;
+    border-width: 50px;
+    text-align: center;
+    margin: 5px 5px
+    
+    
+}
+
+.image--card{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.fish__name{
+    font-size: 20px;
+}
+
+.fish__species{
+
+}
+
+.fish__length{
+
+}
+
+.fish__location{
+
+}
+
+.fish__diet{
+
+}
