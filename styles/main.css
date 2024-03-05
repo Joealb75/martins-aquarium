@@ -1,16 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+}
 
+.siteHeader{
+    text-align: center;
+}
 .fishList{ /* Flex parent element */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    background-color: blue;
+    
     
 }
 
 .fishCard{ 
-    background-color: aqua;
-    border: 2px dotted red;
+    background-color: gray;
+    border-radius: 2%;
     border-width: 50px;
     text-align: center;
     margin: 5px 5px
@@ -26,20 +33,56 @@
 
 .fish__name{
     font-size: 20px;
+    
 }
 
 .fish__species{
-
+    text-align: left;
+    padding: 8px 5px;
 }
 
 .fish__length{
-
+    text-align: left;
+    padding: 8px 5px;
 }
 
 .fish__location{
-
+    text-align: left;
+    padding: 8px 5px;
 }
 
 .fish__diet{
+    text-align: left;
+    padding: 8px 5px;
+}
+
+.tips__head{
+    font-size: 20px;
+    text-align: center;
+    margin: 8px 0px 8px 0px;
+    padding-left: 10px;
+}
+
+.fishing__tip{
+    text-align: left;
+    margin: 8px 0px 8px 0px;
+    padding-left: 10px;
 
 }
+
+.location__head {
+    font-size: 20px;
+    text-align: center;
+    margin: 8px 0px 8px 0px;
+    padding-left: 10px;
+}
+
+.location__fishName{
+    font-size: 20px;
+}
+
+.locations{
+    text-align: left;
+}
+
+
